@@ -1,6 +1,6 @@
 export default function OrderGrid({ rows, handleInputChange, addRow, totalLoaves }) {
   return (
-    <div className="flex-1 bg-gray-800 p-6 rounded-xl border border-gray-700 shadow-xl">
+    <div className="flex-1 bg-blue-200 p-6 rounded-xl border border-gray-700 shadow-xl">
       <div className="grid grid-cols-3 gap-4 mb-4 text-sm text-gray-400 border-b border-gray-600 pb-2">
         <div className="text-center font-bold text-blue-400">Qty Big Bread</div>
         <div className="text-center font-bold text-amber-400">Qty Small Bread</div>
