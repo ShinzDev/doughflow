@@ -1,58 +1,8 @@
-// 'use client'
-
-// import { useState } from "react";
-
-// export default function BakeryCost() {
-  
-//   //bakery cost for bread 
-  
-//   let bakerycostforsmallbread = 200;
-//   let bakerycostforbigbread = 240;
-  
-//   //amount of bread big and small
-  
-  
-//   let totalBigBread = 290
-  
-// const [smallBreadQty, setSmallBreadQty] = useState(0)
-// const [bigBreadQty, setBigBreadQty] = useState("")
-  
-
-// // console.log(setBigBreadQty)
-//   return (
-//     <div className="p-3.5 justify-center  bg-amber-200  w-auto h-100 grid grid-cols-1">
-//         <div className="block  border w-50">
-//           <label>big bread</label>
-//           <br/>
-//           <input 
-//           type="number"  
-//           placeholder="number "
-//           className=" outline-black h-10 w-30"
-//           value={bigBreadQty}
-//           onChange={(e) => setBigBreadOty(Number(e.target.value))}
-//           />
-//         </div>
-//     </div>
-//   );
-// }`  `
-// 
-
-
-
-
-
-
-
-
-
-
-
-
 'use client'
 
 import { useState } from "react";
 
-export default function BakeryCost() {
+export default function Clientcost() {
   
   // 1. DEFINE COSTS (You can change these later)
   const bakeryCostSmall = 200;
