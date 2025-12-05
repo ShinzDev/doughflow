@@ -84,6 +84,7 @@ export default function OrderPage() {
           totals={totals}
           costs={{ big: costBig, small: costSmall }}
           prices={{ big: priceBig, small: priceSmall }}
+          rows={rows}
         />
         
       </div>
