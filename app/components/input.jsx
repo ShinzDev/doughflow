@@ -10,8 +10,8 @@ export default function OrderPage() {
   const [costSmall, setCostSmall] = useState(180); // Pay Bakery
   
   // Selling prices (You can change these defaults)
-  const [priceBig, setPriceBig] = useState(300);   // Charge Hospital
-  const [priceSmall, setPriceSmall] = useState(250); // Charge Hospital
+  const [priceBig, setPriceBig] = useState(280);   // Charge Hospital
+  const [priceSmall, setPriceSmall] = useState(200); // Charge Hospital
 
   // --- 2. ORDER GRID STATE (The Rows) ---
   const [rows, setRows] = useState([
