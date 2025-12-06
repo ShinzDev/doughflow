@@ -33,7 +33,7 @@ export default function OrderPage() {
     setRows([...rows, newRow]);
   };
 
-  const handleInputChange = (id, field, value) => {
+  const handleInputChange = (id:number, field: string, value: string | number) => {
     const updatedRows = rows.map(row => {
       if (row.id === id) {
         const val = field === 'date' ? value : Number(value);
