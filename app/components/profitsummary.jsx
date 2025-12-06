@@ -1,8 +1,18 @@
 'use client' 
 
 // Import the PDF library and our new design
-import { PDFDownloadLink } from '@react-pdf/renderer';
+// import { PDFDownloadLink } from '@react-pdf/renderer';
+import dynamic from "next/dynamic";
 import InvoicePDF from './InvoicePDF';
+
+
+const PDFDownloadLink = dynamic(
+  () => import("@react-pdf/renderer").then((mod) => mod.PDFDownloadLink),
+  {
+    ssr: false,
+    loading: () => <p>Loading...</p>, // Optional: Text to show while loading
+  }
+);
 
 export default function ProfitSummary({ totals, costs, prices, rows }) {
   
